@@ -1,0 +1,76 @@
+#tytul{
+	height:120px;
+	width:100%;
+	background-color:/*#cc9966*/#00994d;
+	text-align:center;
+	font-size:40px;
+	padding-top:50px;
+	font-weight:bold;
+}
+
+body{
+	margin:0 auto;
+	max-width:1500px;
+}
+
+.cialo{
+	height:auto;
+	width:100%;
+	background-color:/*#392613*/#004d00;
+	float:left;
+}
+
+.piosenka{
+	border-radius:10px;
+	width:25%/*40vh*/;
+	margin:5vh;
+	height:19vh;
+	margin-top:8vh;
+	background-color:/*#ac7339*/#248f24;
+	float:left;
+}
+
+.piosenka:hover{
+	background-color:#339966;
+	border-bottom: 40px solid #206040;
+	border-radius: 80px;
+	margin-top: 10px;
+	transition: 0.4s;
+}
+
+#koniec{
+	height:10%;
+	width:100%;
+	background-color:/*#804000*/#669900;
+	text-align:right;
+	float:left;
+}
+
+footer{
+	font-style:italic;
+	padding-right:60px;
+	font-size:15px;
+	color:#000066;
+	font-family: Noto Sans, sans-serif;
+}
+
+.title{
+	padding-top:50px;
+    vertical-align:middle;
+	text-align:center;
+	color:#000066;
+	font-family: Noto Sans, sans-serif;
+}
+
+.autor{
+	text-align:right;
+	padding:20px;
+	color:#000066;
+	font-family: Noto Sans, sans-serif;
+}
+
+header{
+	color:#000066;
+	font-family: Noto Sans, sans-serif;
+}
+
