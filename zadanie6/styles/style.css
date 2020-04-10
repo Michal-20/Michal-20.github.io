@@ -125,30 +125,7 @@ img{
 }
 
 
-@media (max-width: 320px)
-{
-	.RWD{
-		font-size:0.65rem;
-	}
-    h2{	
-		font-size:1.1rem;
-	}
-	header{
-		font-size:1.5rem;
-	}
-	.content-text{
-		width:58vw;
-	}	
-	#foot1{
-		width:49vw;
-	}	
-	#foot2{
-		width:47vw;
-	}
-	a{
-		font-size:0.43rem;
-	}
-}
+
 @media  (min-width: 320px)
 {
 	.RWD{
