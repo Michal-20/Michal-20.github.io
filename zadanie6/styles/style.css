@@ -125,7 +125,7 @@ img{
 }
 
 
-@media screen and  (max-width: 320px)
+@media (max-width: 320px)
 {
 	.RWD{
 		font-size:0.65rem;
@@ -149,7 +149,7 @@ img{
 		font-size:0.43rem;
 	}
 }
-@media screen and  (min-width: 320px)
+@media  (min-width: 320px)
 {
 	.RWD{
 		font-size:0.65rem;
