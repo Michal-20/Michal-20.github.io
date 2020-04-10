@@ -277,17 +277,23 @@ img{
 @media(orientation: landscape) and (max-width: 1000px)
 { 	
 	header{
-		font-size:1.6rem;
+		font-size:1.4rem;
 	}
 	.RWD{
 		font-size:0.5rem;
 	}
+	h2{
+		font-size:1.1rem;	
+	}	
 	#foot1{
-		height:14vw;
+		height:15.5vw;
 	}	
 	#foot2{
-		height:14vw;
+		height:15.5vw;
 	}
+	#title1{
+		height:9vh;
+	}	
 }
 
 
