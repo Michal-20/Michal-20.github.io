@@ -142,9 +142,11 @@ img{
 	}	
 	#foot1{
 		width:49vw;
+		height:15vh;
 	}	
 	#foot2{
 		width:47vw;
+		height:15vh;
 	}
 	a{
 		font-size:0.43rem;
@@ -170,9 +172,11 @@ img{
 	}
 	#foot1{
 		width:49vw;
+		height:15vh;
 	}	
 	#foot2{
 		width:47.7vw;
+		height:15vh;
 	}
 	a{
 		font-size:0.55rem;
@@ -276,7 +280,7 @@ img{
 		font-size:1.6rem;
 	}
 	.RWD{
-		font-size:0.7rem;
+		font-size:0.5rem;
 	}
 	#foot1{
 		height:14vw;
