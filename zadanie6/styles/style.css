@@ -129,16 +129,16 @@ img{
 @media  (min-width: 320px)
 {
 	.RWD{
-		font-size:0.65rem;
+		font-size:0.4rem;
 	}
-    h2{	
-		font-size:1.1rem;
+   	 h2{	
+		font-size:0.8rem;
 	}
 	header{
-		font-size:1.5rem;
+		font-size:1.4rem;
 	}
 	.content-text{
-		width:58vw;
+		width:50vw;
 	}	
 	#foot1{
 		width:49vw;
