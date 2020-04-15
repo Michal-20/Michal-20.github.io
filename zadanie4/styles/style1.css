@@ -65,14 +65,14 @@ article{
 	font-size:1rem;
 }
 
-@media (min-height: 200px)
+@media (min-height: 100px)
 {
 	article{
-	font-size:0.2rem;
+	font-size:0.45rem;
 	}
 }
 
-@media (min-height: 500px)
+@media (min-height: 700px)
 {
 	article{
 	font-size:1rem;
