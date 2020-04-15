@@ -63,4 +63,18 @@ header{
 
 article{
 	font-size:1rem;
-}	
+}
+
+@media (min-height: 200px)
+{
+	article{
+	font-size:0.2rem;
+	}
+}
+
+@media (min-height: 500px)
+{
+	article{
+	font-size:1rem;
+	}
+}
