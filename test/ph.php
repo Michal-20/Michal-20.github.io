@@ -15,7 +15,19 @@
 		Login: <br /> <input type="text" name="login" /> <br />
 		Hasło: <br /> <input type="password" name="haslo" /> <br /><br />
 		<input type="submit" value="Zaloguj się" />
+	<?php
+$login=$_POST['login'];
+$haslo=$_POST['haslo'];
+if($login=='admin' && $haslo=='1234')
+{
+	echo('Czesc admin!');
 	
+} 
+else
+{
+	echo("Nie zalogowano!");
+}
+?>
 	</form>	
 
 </body>
