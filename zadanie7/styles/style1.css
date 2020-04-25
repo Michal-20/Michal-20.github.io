@@ -142,7 +142,7 @@ input[type=reset]:hover {
 	height:10vh;
 	text-align:right;
 	margin-left:10vw;
-	margin-top:5vh;
+	margin-top:15vh;
 	border-top:5px solid white;
 }
 footer{
@@ -284,14 +284,11 @@ a:hover{
 		font-size:2.4rem;
 	}	
 	article{
-		font-size:0.9rem;
+		font-size:1rem;
 	}
 	#content{
-		//background-color:blue;
+		background-color:blue;
 		height:65vh;
-	}
-	#foot{
-		margin-top:12vh;
 	}
 	label{
 	font-size:1rem;
@@ -334,8 +331,8 @@ a:hover{
 		font-size:0.97rem;
 	}	
 	#content{
-		//background-color:white;
-		height:65vh;
+		background-color:white;
+		height:55vh;
 	}
 	label{
 	font-size:1rem;
@@ -343,9 +340,6 @@ a:hover{
 	.test{
 		width:35vw;
 		height:45vh;
-	}
-	#foot{
-		margin-top:5vh;
 	}
 
 }
@@ -376,11 +370,11 @@ a:hover{
 		margin-left:20vw;
 	}
 	article{
-		font-size:1.1rem;
+		font-size:1rem;
 	}
 
 	#content{
-		//background-color:black;
+		background-color:black;
 	}
 	#pp{
 		font-size:4.2rem;
@@ -396,13 +390,13 @@ a:hover{
 @media screen and  (min-width: 800px)
 {
 	article{
-		font-size:1.2rem;
+		font-size:1.4rem;
 	}
 	#pp{
 		font-size:4.8rem;
 	}
 	#title{
-		height:40vh;
+		height:30vh;
 	}	
 	input[type=text]{
 		width:15vw;
@@ -425,7 +419,7 @@ a:hover{
 		width:20vw;
 	}   
 	#content{
-		//background-color:green;
+		background-color:green;
 	}	
 
 	
@@ -437,8 +431,8 @@ a:hover{
 	article{
 		font-size:1.5rem;
 	}
-	h1{
-		font-size:2rem;
+	#pp{
+		font-size:5rem;
 	}
 	input[type=text]{
 		width:15vw;
@@ -500,8 +494,9 @@ a:hover{
 	}   
 	#form{
 		margin-left:15vw;
-	}h1{
-		font-size:4rem;
+	}
+	#pp{
+		font-size:5.4rem;
 	}
 	#content{
 		//background-color:brown;
@@ -549,7 +544,7 @@ a:hover{
 	#content{
 		background:none;
 	}
-	}h1{
+	#pp{
 		font-size:6rem;
 	}
 	#title{
@@ -558,14 +553,13 @@ a:hover{
 			
 }
 
-@media(orientation: landscape) and (min-width: 300px)
+/*@media(orientation: landscape) and (max-width: 700px)
 { 	
 	#pp{
 		font-size:3.5rem;
-		color:yellow;
 	}	
 	#content{
-		height:85vh;
+		height:65vh;
 	}	
 	.test{
 		height:60vh;
@@ -577,21 +571,12 @@ a:hover{
 	width:10vw;
 	height:5vh;
 	}
-	#title{
-	width:80vw;
-	height:50vh;
-	}
-	.test{
-	width:35vw;
-	height:95vh;
-	}
 }
 
-@media(orientation: landscape) and (min-width: 1000px)
+@media(orientation: landscape) and (max-width: 1000px)
 { 	
 	#pp{
 		font-size:6rem;
-		color:pink;
 	}
 	#content{
 		height:35vh;
@@ -606,11 +591,8 @@ a:hover{
 	width:10vw;
 	height:5vh;
 	}
-	.test{
-	width:35vw;
-	height:45vh;
-	}
 }
 
+*/
 
 
