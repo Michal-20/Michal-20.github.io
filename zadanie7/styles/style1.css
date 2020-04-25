@@ -281,19 +281,19 @@ a:hover{
 		width:100vw;
 	}
 	#pp{
-		font-size:3rem;
+		font-size:2.8rem;
 	}	
 	article{
 		font-size:0.9rem;
 	}
 	#content{
 		//background-color:blue;
+		height:45vh;
 	}
-	#form1{
-	width:90vw;
-	height:55vh;
-	margin-left:4vw;
-	}
+	#foot{
+		margin-top:8vh;
+	}	
+	
 }
 @media screen and   (min-width: 520px)
 {
@@ -332,6 +332,7 @@ a:hover{
 	}	
 	#content{
 		//background-color:white;
+		height:35vh;
 	}
 	label{
 	font-size:1rem;
@@ -340,11 +341,8 @@ a:hover{
 		width:35vw;
 		height:45vh;
 	}
-	
-	#form1{
-	width:70vw;
-	height:47vh;
-	margin-left:15vw;	
+	#foot{
+		margin-top:5vh;
 	}
 
 }
