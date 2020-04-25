@@ -578,6 +578,10 @@ a:hover{
 	width:10vw;
 	height:5vh;
 	}
+	.test{
+	width:35vw;
+	height:45vh;
+	}
 }
 
 @media(orientation: landscape) and (min-width: 300px)
@@ -587,7 +591,7 @@ a:hover{
 		color:yellow;
 	}	
 	#content{
-		height:65vh;
+		height:85vh;
 	}	
 	.test{
 		height:60vh;
@@ -598,6 +602,14 @@ a:hover{
 	input[type=submit],[type=reset] {
 	width:10vw;
 	height:5vh;
+	}
+	#title{
+	width:80vw;
+	height:50vh;
+	}
+	.test{
+	width:35vw;
+	height:55vh;
 	}
 }
 
