@@ -293,6 +293,9 @@ a:hover{
 	label{
 	font-size:1rem;
 	}
+	#title{
+		background-color:purple;
+	}	
 	
 }
 @media screen and   (min-width: 520px)
@@ -553,46 +556,25 @@ a:hover{
 			
 }
 
-/*@media(orientation: landscape) and (max-width: 700px)
+@media(orientation: landscape) and (min-width: 700px)
 { 	
-	#pp{
-		font-size:3.5rem;
-	}	
+
 	#content{
-		height:65vh;
+		height:95vh;
 	}	
 	.test{
 		height:60vh;
 	}
 	#foot{
 		height:15vh;
-	}	
-	input[type=submit],[type=reset] {
-	width:10vw;
-	height:5vh;
 	}
-}
-
-@media(orientation: landscape) and (max-width: 1000px)
-{ 	
+	#title{
+		height:50vh;
+	}	
 	#pp{
-		font-size:6rem;
-	}
-	#content{
-		height:35vh;
-	}
-	.test{
-		height:45vh;
+		color:yellow;
 	}	
-	#foot{
-		height:10vh;
-	}
-	input[type=submit],[type=reset] {
-	width:10vw;
-	height:5vh;
-	}
 }
 
-*/
 
 
