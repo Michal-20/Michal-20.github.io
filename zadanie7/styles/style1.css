@@ -561,64 +561,9 @@ a:hover{
 
 @media(orientation: landscape) and (max-width: 1000px)
 { 	
-	#content{
-	width:100vw;
-	height:35vh;
-	}
-	}
-	#pp{
-		font-size:6rem;
-	}
-	input[type=text]{
-		width:27vw;
-		height:5vh;
-	}
-	select{
-		width:30vw;
-		height:5vh;
-	}	
-	input[type=submit],[type=reset] {
-		width:17vw;
-		height:4vh;
-		margin-left:2vw;
-	}
-	textarea{
-		height:5vh;
-		width:45vw;
-	}
-	.test{
-		width:35vw;
-		height:45vh;
-	}
+
 }
 @media(orientation: landscape) and (max-width: 700px)
 { 	
-	#content{
-	width:100vw;
-	height:55vh;
-	}
-	#pp{
-		font-size:3rem;
-	}
-	input[type=text]{
-		width:30vw;
-		height:7vh;
-	}
-	select{
-		width:30vw;
-		height:7vh;
-	}	
-	input[type=submit],[type=reset] {
-		width:22vw;
-		height:6vh;
-		margin-left:2vw;
-	}
-	textarea{
-		height:5vh;
-		width:45vw;
-	}
-	.test{
-		width:35vw;
-		height:65vh;
-	}
+
 }
