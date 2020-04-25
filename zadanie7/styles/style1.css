@@ -187,6 +187,17 @@ a:hover{
 	color:#AD6C00;
 }
 
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+
+
+
+
 @media (orientation: portrait) and(min-width: 320px)
 {
 	input[type=radio] + label:before{
@@ -202,7 +213,7 @@ a:hover{
 		height:vh;
 	}	
 	input[type=submit],[type=reset] {
-		width:8vw;
+		width:7vw;
 		height:4vh;
 		margin-left:2vw;
 	}
@@ -214,10 +225,17 @@ a:hover{
 		width:25vw;
 	}	
 	#form{
-		margin-left:20vw;
+		margin-left:10vw;
 	}	
 	.test{
 		height:40vh;
+		width:100vw;
+	}
+	h1{
+		font-size:1.5rem;
+	}	
+	article{
+		font-size:0.5rem;
 	}	
 }
 @media (orientation: portrait) and  (min-width: 520px)
@@ -411,6 +429,10 @@ a:hover{
 	#form{
 		margin-left:15vw;
 	}
+	.test{
+		width:35vw;
+		height:45vh;
+	}	
 		
 }
 
