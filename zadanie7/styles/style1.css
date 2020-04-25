@@ -284,7 +284,7 @@ a:hover{
 		font-size:2.4rem;
 	}	
 	article{
-		font-size:1rem;
+		font-size:0.9rem;
 	}
 	#content{
 		//background-color:blue;
@@ -563,6 +563,7 @@ a:hover{
 { 	
 	#pp{
 		font-size:6rem;
+		color:pink;
 	}
 	#content{
 		height:35vh;
@@ -583,6 +584,7 @@ a:hover{
 { 	
 	#pp{
 		font-size:3.5rem;
+		color:yellow;
 	}	
 	#content{
 		height:65vh;
