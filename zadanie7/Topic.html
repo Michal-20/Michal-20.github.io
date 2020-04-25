@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Formsy</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale-1">
+		<link rel="stylesheet" href="styles/style1.css">
+		
+	</head>
+	
+	<body>
+		<div id="title">
+			<h1>Kurs gotowania dla „zielonych”</h1>
+		</div>
+		<div id="content">
+			<article>
+				Czy kiedykolwiek marzyłeś o tym, aby gotować jak prawdziwy szef kuchni? Jeżeli tak to ten kurs jest idealny dla ciebie.
+				Dzięki niemu nauczysz się przygotowywać wiele wyśmienitych posiłków: od prostych przystawek czy śniadań po skomplikowane i wykwintne
+				dania prosto  z MasterChef’a. Dodatkowo będziesz miał możliwość poznania najpopularniejszych kucharzy z całej Polski i 
+				wyokrzystania ich autorskich przepisów. Po zakończeniu kursu otrzymasz certyfikat oraz książkę kucharską z wszystkimi przerabianymi przepisami.
+				Nie czekaj dołącz już dziś. Jedyne co musisz zrobić to wypełnić poniższy formularz i gotowe. Czekamy. Śpiesz się. Ilość miejsc oganiczona!
+			</article><br><br><br>
+		</div>
+		<div id="form1">
+			<form action="Kawa.html" method="GET">
+				<div class="test">
+					<label for="name">Imię:</label><br>
+					<input type="text" id="name" name="name" placeholder="Twoje imię" required><br><br>
+					
+					<label for="surname">Nazwisko:</label><br>
+					<input type="text" id="surname" placeholder="Twoje nazwisko" required><br><br>
+					
+					<label for="e-mail">Adres e-mail:</label><br>
+					<input type="text" id="e-mail" placeholder="Twoje e-mail" required><br><br>
+					
+					<label for="code">Kod pocztowy:</label><br>
+					<input type="text" id="code" placeholder="Kod pocztowy miasta" required><br><br>
+				</div>
+				<div class="test">
+					<label for="male">Płeć:</label><br>
+					
+					<input type="radio" id="male" name="gender" required>
+					<label for="male">Mężczyzna</label><br>
+					
+					<input type="radio" id="famale" name="gender" required>
+					<label for="famale">Kobieta</label><br>
+					
+					<input type="radio" id="other" name="gender" required>
+					<label for="other">Inna</label><br><br>
+					
+					<label for="city">Wybór miasta:</label><br>
+					
+					<select name="city" id="city" required>
+						<option id="Waw" value="">Warszawa</option>
+						<option id="Wro" value="">Wrocław</option>
+						<option id="Kra" value="">Kraków</option>
+						<option id="Poz" value="">Poznań</option>
+					</select><br><br>
+					
+					<label for="so.el">Pytania i wątpliwości</label><br>
+					<textarea id="so.el" name="question" cols="50" placeholder="Jeżeli masz jakieś pytania czy wątpliwości napisz je tutaj"></textarea><br><br>
+					
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset"><br><br>
+				</div>
+			</form>
+		</div>
+		<div id="foot">
+			<footer>
+			Wykonał: Michał Kaczyński<br>
+			<a href="https://michal-20.github.io/">Github: michal-20.github.io</a>
+			</footer>
+		</div>
+		
+	</body>
+</html>

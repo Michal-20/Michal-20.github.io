@@ -1,0 +1,54 @@
+
+
+#information{
+	width:21vw;
+	height:40vh;
+	border:15px solid #533400;
+	background-color:#A17835;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	border-radius:100%;
+}	
+#information:hover{
+	background-color:#b3935d;
+	border-style:double;
+}
+
+p{
+    width:21vw;
+    height:40vh;
+    display:table-cell;
+    vertical-align:middle;
+	text-align:center;
+	font-size:2rem;
+}
+
+#back{
+	width:8vw;
+	height:5vh;
+	border:7px solid #533400;
+	background-color:#A17835;
+	border-radius:30px;
+}	
+#back:hover{
+	border:7px double #533400;
+	background-color:#c6ae85;
+}
+
+a{
+	padding-left:2.2vw;
+	font-size:2.2rem;
+	text-decoration: none;
+	color:#5B3900;
+}
+
+a:hover{
+	color:#2d1c00;
+}
+
+
+
