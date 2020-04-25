@@ -284,7 +284,7 @@ a:hover{
 		font-size:2.4rem;
 	}	
 	article{
-		font-size:0.9rem;
+		font-size:1rem;
 	}
 	#content{
 		//background-color:blue;
@@ -335,7 +335,7 @@ a:hover{
 	}	
 	#content{
 		//background-color:white;
-		height:35vh;
+		height:65vh;
 	}
 	label{
 	font-size:1rem;
@@ -558,27 +558,6 @@ a:hover{
 			
 }
 
-@media(orientation: landscape) and (min-width: 300px)
-{ 	
-	#pp{
-		font-size:3.5rem;
-		color:yellow;
-	}	
-	#content{
-		background-color:green;
-		height:65vh;
-	}	
-	.test{
-		height:60vh;
-	}
-	#foot{
-		height:15vh;
-	}	
-	input[type=submit],[type=reset] {
-	width:10vw;
-	height:5vh;
-	}
-}
 
 @media(orientation: landscape) and (min-width: 1000px)
 { 	
@@ -600,5 +579,24 @@ a:hover{
 	}
 }
 
+@media(orientation: landscape) and (min-width: 300px)
+{ 	
+	#pp{
+		font-size:3.5rem;
+	}	
+	#content{
+		height:65vh;
+	}	
+	.test{
+		height:60vh;
+	}
+	#foot{
+		height:15vh;
+	}	
+	input[type=submit],[type=reset] {
+	width:10vw;
+	height:5vh;
+	}
+}
 
 
