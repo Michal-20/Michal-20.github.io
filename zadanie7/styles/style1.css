@@ -558,6 +558,34 @@ a:hover{
 			
 }
 
+@media(orientation: landscape) and (min-width: 300px)
+{ 	
+	#pp{
+		font-size:3.5rem;
+		color:yellow;
+	}	
+	#content{
+		height:85vh;
+	}	
+	.test{
+		height:60vh;
+	}
+	#foot{
+		height:15vh;
+	}	
+	input[type=submit],[type=reset] {
+	width:10vw;
+	height:5vh;
+	}
+	#title{
+	width:80vw;
+	height:50vh;
+	}
+	.test{
+	width:35vw;
+	height:95vh;
+	}
+}
 
 @media(orientation: landscape) and (min-width: 1000px)
 { 	
@@ -584,33 +612,5 @@ a:hover{
 	}
 }
 
-@media(orientation: landscape) and (min-width: 300px)
-{ 	
-	#pp{
-		font-size:3.5rem;
-		color:yellow;
-	}	
-	#content{
-		height:85vh;
-	}	
-	.test{
-		height:60vh;
-	}
-	#foot{
-		height:15vh;
-	}	
-	input[type=submit],[type=reset] {
-	width:10vw;
-	height:5vh;
-	}
-	#title{
-	width:80vw;
-	height:50vh;
-	}
-	.test{
-	width:35vw;
-	height:75vh;
-	}
-}
 
 
