@@ -9,7 +9,7 @@ body{
 
 #content{
 	width:100vw;
-	height:35vh;
+	height:45vh;
 	float:left;
 	margin:5vh;
 	
@@ -18,19 +18,19 @@ article{
 	color:#00289A;
 	font-size:1.7rem;
 	text-align:center;
-	padding-right:22vw;
-	padding-left:20vw;
+	padding-right:10vw;
+	padding-left:8vw;
 	text-shadow: 1px 1px 0px #68b6ff;
 }	
 
 
 #title{
-	width:80vw;
+	width:90vw;
 	height:30vh;
 	padding-bottom:5vh;
 	float:left;
 	border-bottom:5px solid #3e2c0f;
-	margin-left:10vw;
+	margin-left:5vw;
 }	
 h1{
 	color:#00289A;
@@ -47,15 +47,14 @@ h1{
 	height:45vh;
 	float:left;	
 	margin-bottom:3vh;
-	background-color:orange;
+	//background-color:orange;
 }
 
 
 #form1{
-	width:70vw;
+	width:90vw;
 	height:47vh;
-	margin-left:15vw;
-	
+	margin-left:10vw;	
 }	
 
 
@@ -124,7 +123,7 @@ input[type=submit],[type=reset] {
   width:6vw;
   height:4vh;
   margin-left:3vw;
-  border: 6px solid #103c66;
+  border: 4px solid #103c66;
 }
 
 input[type=submit]:hover {
@@ -143,8 +142,9 @@ input[type=reset]:hover {
 	height:10vh;
 	text-align:right;
 	margin-left:10vw;
-	margin-top:15vh;
+	margin-top:8vh;
 	border-top:5px solid white;
+	margin-bottom:5vh;
 }
 footer{
 	font-size:1.2rem;
@@ -200,55 +200,7 @@ a:hover{
 
 
 
-@media (max-width: 320px)
-{
-	input[type=radio] + label:before{
-		width: 3px;
-		height: 3px;
-	}
-	input[type=text]{
-		width:20vw;
-		height:3vh;
-	}
-	select{
-		width:10vw;
-		height:vh;
-	}	
-	input[type=submit],[type=reset] {
-		width:7vw;
-		height:5vh;
-		margin-left:2vw;
-	}
-	textarea{
-		height:5vh;
-		width:25vw;
-	}	
-	input[type=text]:focus{
-		width:25vw;
-	}	
-	#form{
-		margin-left:10vw;
-	}	
-	.test{
-		height:40vh;
-		width:100vw;
-	}
-	#pp{
-		font-size:2rem;
-	}	
-	article{
-		font-size:0.47rem;
-	}
-	#content{
-		//background-color:blue;
-	}
-	#form1{
-	width:90vw;
-	height:55vh;
-	margin-left:4vw;
-	}	
-}
-@media (min-width: 320px)
+@media (orientation: portrait) and (max-device-width: 320px)
 {
 	input[type=radio] + label:before{
 		width: 3px;
@@ -280,176 +232,260 @@ a:hover{
 	.test{
 		height:40vh;
 		width:100vw;
-		color:orange;
 	}
 	#pp{
-		font-size:2.4rem;
+		font-size:6rem;
 	}	
 	article{
-		font-size:0.9rem;
+		font-size:1rem;
 	}
 	#content{
-		background-color:blue;
-		height:75vh;
+		//background-color:blue;
+		height:65vh;
 	}
 	label{
 	font-size:1rem;
 	}
 	#title{
-		background-color:purple;
+		//background-color:purple;
+	}	
+}
+@media (orientation: portrait) and (min-device-width: 320px)
+{
+	input[type=radio] + label:before{
+		width: 3px;
+		height: 3px;
+	}
+	input[type=text]{
+		width:40vw;
+		height:4vh;
+	}
+	select{
+		width:30vw;
+		height:4vh;
+		font-size:2.5rem;
+	}	
+	input[type=submit],[type=reset] {
+		width:23vw;
+		height:3vh;
+		margin-left:2vw;
+		font-size:2rem;
+		
+	}
+	textarea{
+		height:5vh;
+		width:55vw;
+		font-size:2rem;
+	}	
+	input[type=text]:focus{
+		width:60vw;
+	}  
+	#form{
+		margin-left:10vw;
+	}	
+	.test{
+		height:40vh;
+		width:100vw;
+	}
+	#pp{
+		font-size:7.6rem;
+	}	
+	article{
+		font-size:3rem;
+	}
+	#content{
+		background-color:blue;
+		height:90vh;
+	}
+	label{
+	font-size:3rem;
+	}
+	#title{
+		//background-color:purple;
+	}	
+	input{
+		font-size:2.5rem;
+	}	
+	footer{
+		font-size:2rem;
 	}	
 	
 }
-@media screen and   (min-width: 520px)
+@media (orientation: portrait) and  (min-device-width: 520px)
 {
 	input[type=radio] + label:before{
 		width: 3px;
 		height: 3px;
 	}
 	input[type=text]{
-		width:20vw;
-		height:5vh;
+		width:30vw;
+		height:3vh;
 	}
 	select{
 		width:20vw;
-		height:5vh;
+		height:3vh;
+		font-size:1.4rem;
 	}
 	input[type=submit],[type=reset] {
 		width:12vw;
-		height:5vh;
+		height:3vh;
 		margin-left:1vw;
+		font-size:1.4rem;
 	}
 	textarea{
-		width:20vw;
+		width:40vw;
 		height:6vh;
+		font-size:1.5rem;
 	}	
 	input[type=text]:focus{
-		width:20vw;
+		width:40vw;
 	}  
 	#form{
 		margin-left:20vw;
 	}
 	#pp{
-		font-size:3.7rem;
+		font-size:6rem;
 	}
 	article{
-		font-size:0.97rem;
+		font-size:2.3rem;
 	}	
 	#content{
-		background-color:white;
+		//background-color:white;
 		height:55vh;
 	}
 	label{
-	font-size:1rem;
+	font-size:2rem;
 	}
 	.test{
-		width:35vw;
+		width:45vw;
 		height:45vh;
+	}
+	input{
+		font-size:1.2rem;
 	}
 
 }
-@media screen and   (min-width: 640px)
+@media (orientation: portrait) and   (min-device-width: 640px)
 {
 	input[type=radio] + label:before{
 		width: 3px;
 		height: 3px;
 	}
 	input[type=text]{
-		width:15vw;
-		height:5vh;
+		width:30vw;
+		height:4vh;
 	}
 	select{
-		width:20vw;
-		height:5vh;
+		width:30vw;
+		height:4vh;
 	}
 	input[type=submit],[type=reset] {
-		width:10vw;
-		height:5vh;
+		width:13vw;
+		height:3vh;
 		margin-left:1vw;
+		font-size:1.4rem;
 	}
 	textarea{
-		width:20vw;
+		width:40vw;
 		height:6vh;
 	}	
 	#form{
 		margin-left:20vw;
 	}
 	article{
-		font-size:1rem;
+		font-size:2.1rem;
 	}
 
 	#content{
-		background-color:black;
+		//background-color:black;
+		height:75vh;
 	}
 	#pp{
-		font-size:4.2rem;
+		font-size:5.7rem;
 	}
 	label{
-	font-size:1.5rem;
+	font-size:2.5rem;
 	}	
 	input[type=text]:focus{
-		width:20vw;
+		width:40vw;
 	}  
-}
-
-@media screen and  (min-width: 800px)
-{
-	article{
+	input{
 		font-size:1.4rem;
 	}
+	.test{
+		width:45vw;
+		height:54vh;
+	}
+}
+
+@media (orientation: portrait) and (min-device-width: 800px)
+{
+	article{
+		font-size:2.2rem;
+	}
 	#pp{
-		font-size:4.8rem;
+		font-size:6rem;
 	}
 	#title{
 		height:30vh;
 	}	
 	input[type=text]{
-		width:15vw;
-		height:5vh;
+		width:30vw;
+		height:4vh;
 	}
 	select{
 		width:20vw;
-		height:5vh;
+		height:4vh;
+		font-size:1.5rem;
 	}
 	input[type=submit],[type=reset] {
-		width:10vw;
-		height:5vh;
+		width:13vw;
+		height:3vh;
 		margin-left:1vw;
+		font-size:1.1rem;
 	}
 	textarea{
-		width:20vw;
+		width:40vw;
 		height:6vh;
 	}	
 	input[type=text]:focus{
-		width:20vw;
+		width:40vw;
 	}   
 	#content{
-		background-color:green;
+		//background-color:green;
 	}	
-
-	
+	label{
+		font-size:1.7rem;
+	}
+	input{
+		font-size:1.1rem;
+	}
+	.test{
+		width:45vw;
+		height:45vh;
+	}
 }
 
 
-@media screen and   (min-width: 1280px)
+@media (orientation: portrait) and   (min-device-width: 1280px)
 {
 	article{
 		font-size:1.5rem;
 	}
 	#pp{
-		font-size:5rem;
+		font-size:6rem;
 	}
 	input[type=text]{
-		width:15vw;
-		height:5vh;
+		width:25vw;
+		height:3vh;
 	}
 	select{
 		width:20vw;
-		height:5vh;
+		height:4vh;
 	}
 	input[type=submit],[type=reset] {
 		width:10vw;
-		height:5vh;
+		height:3vh;
 		margin-left:1vw;
 	}
 	textarea{
@@ -457,7 +493,7 @@ a:hover{
 		height:6vh;
 	}	
 	input[type=text]:focus{
-		width:20vw;
+		width:35vw;
 	}   
 	#content{
 		//background-color:pink;
@@ -468,10 +504,10 @@ a:hover{
 	
 
 }
-@media screen and  (min-width: 1600px)
+@media (orientation: portrait) and  (min-device-width: 1600px)
 {
 	article{
-		font-size:1.5rem;
+		font-size:1.3rem;
 	}
 	input[type=radio] + label:before{
 		width: 10px;
@@ -501,7 +537,7 @@ a:hover{
 		margin-left:15vw;
 	}
 	#pp{
-		font-size:5.4rem;
+		font-size:5.5rem;
 	}
 	#content{
 		//background-color:brown;
@@ -510,62 +546,16 @@ a:hover{
 		height:30vh;
 	}
 }
-@media screen and  (min-width: 1800px)
-{
-	article{
-		font-size:1.7rem;
-	}
-	input[type=radio] + label:before{
-		width: 10px;
-		height: 10px;
-	}
-	input[type=text]{
-		width:15vw;
-		height:5vh;
-	}
-	select{
-		width:20vw;
-		height:5vh;
-	}
-	input[type=submit],[type=reset] {
-		width:10vw;
-		height:5vh;
-		margin-left:1vw;
-	}
-	textarea{
-		width:20vw;
-		height:6vh;
-	}	
-	input[type=text]:focus{
-		width:20vw;
-	}  
-	#form{
-		margin-left:15vw;
-	}
-	.test{
-		width:35vw;
-		height:45vh;
-	}
-	#content{
-		background:none;
-	}
-	#pp{
-		font-size:6rem;
-	}
-	#title{
-		height:30vh;
-	}
-			
-}
 
-@media(orientation: landscape) and (min-width: 700px)
+@media(orientation: landscape) and (min-device-width: 320px)
 { 	
 
 	#content{
 		height:95vh;
 	}	
 	.test{
-		height:80vh;
+		height:85vh;
+		width:45vw;
 	}
 	#foot{
 		height:15vh;
@@ -574,8 +564,202 @@ a:hover{
 		height:50vh;
 	}	
 	#pp{
+		font-size:5.5rem;
+	}
+	article{
+		font-size:1.8rem;
+	}
+	input[type=text]{
+		width:25vw;
+		height:6vh;
+	}
+	select{
+		width:20vw;
+		height:6vh;
+		font-size:1.3rem;
+	}
+	input[type=submit],[type=reset] {
+		width:13vw;
+		height:6vh;
+		margin-left:1vw;
+		font-size:1rem;
 		
-		color:yellow;
+	}	
+	textarea{
+		height:10vh;
+		width:35vw;
+		font-size:1.3rem;
+	}
+	input[type=text]:focus{
+		width:35vw;
+	} 
+	input{
+		font-size:1.3rem;
+	}	
+	label{
+		font-size:2rem;
+	}
+}
+@media(orientation: landscape) and (min-device-width: 600px)
+{ 	
+
+	#content{
+		height:107vh;
+	}	
+	.test{
+		height:90vh;
+		width:45vw;
+	}
+	#foot{
+		height:15vh;
+	}
+	#title{
+		height:50vh;
+	}	
+	#pp{
+		font-size:5.3rem;
+	}
+	article{
+		font-size:1.8rem;
+	}
+	input[type=text]{
+		width:25vw;
+		height:7vh;
+	}
+	select{
+		width:20vw;
+		height:7vh;
+		font-size:1.3rem;
+	}
+	input[type=submit],[type=reset] {
+		width:13vw;
+		height:7vh;
+		margin-left:1vw;
+		font-size:1rem;
+		
+	}	
+	textarea{
+		height:10vh;
+		width:35vw;
+		font-size:1.3rem;
+	}
+	input[type=text]:focus{
+		width:35vw;
+	} 
+	input{
+		font-size:1.3rem;
+	}	
+	label{
+		font-size:2rem;
+	}
+}
+@media(orientation: landscape) and (min-device-width: 1000px)
+{ 	
+
+	#content{
+		height:100vh;
+	}	
+	.test{
+		height:70vh;
+		width:45vw;
+	}
+	#foot{
+		height:15vh;
+	}
+	#title{
+		height:50vh;
+	}	
+	#pp{
+		//color:yellow;
+		font-size:6.5rem;
+	}
+	article{
+		font-size:2rem;
+	}
+	input[type=text]{
+		width:25vw;
+		height:6vh;
+	}
+	select{
+		width:20vw;
+		height:6vh;
+		font-size:1.3rem;
+	}
+	input[type=submit],[type=reset] {
+		width:10vw;
+		height:4.5vh;
+		margin-left:1vw;
+		font-size:1.1rem;
+		
+	}	
+	textarea{
+		height:10vh;
+		width:35vw;
+		font-size:1.3rem;
+	}
+	input[type=text]:focus{
+		width:35vw;
+	} 
+	input{
+		font-size:1.3rem;
+	}	
+	label{
+		font-size:2rem;
+	}	
+}
+
+@media(orientation: landscape) and (min-device-width: 1600px)
+{ 	
+
+	#content{
+		height:95vh;
+	}	
+	.test{
+		height:60vh;
+		width:45vw;
+	}
+	#foot{
+		height:15vh;
+	}
+	#title{
+		height:50vh;
+	}	
+	#pp{
+		//color:yellow;
+		font-size:7.5rem;
+	}
+	article{
+		font-size:2.6rem;
+	}
+	input[type=text]{
+		width:25vw;
+		height:4vh;
+	}
+	select{
+		width:20vw;
+		height:4vh;
+		font-size:1rem;
+	}
+	input[type=submit],[type=reset] {
+		width:10vw;
+		height:3.5vh;
+		margin-left:1vw;
+		font-size:1rem;
+		
+	}	
+	textarea{
+		height:10vh;
+		width:35vw;
+		font-size:1rem;
+	}
+	input[type=text]:focus{
+		width:35vw;
+	} 
+	input{
+		font-size:1rem;
+	}	
+	label{
+		font-size:1.5rem;
 	}	
 }
 
