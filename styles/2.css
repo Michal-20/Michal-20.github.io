@@ -1,0 +1,66 @@
+body{
+	background: linear-gradient(to bottom, #103c66 30%, #93cbff 90%); background-size:contain;
+	font-family: 'Shadows Into Light', cursive;
+}	
+
+#all{
+	height:100vh;
+}	
+h1{
+	text-align:center;
+	color:#7FBFBF;
+}	
+a{
+	text-decoration:none;
+	color:#005959;
+}	
+
+
+
+.tematy {
+  list-style: none;  
+}
+.tematy li {
+  float: left;
+  margin: 3%;
+}
+.tematy li div {
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+.tematy li div a {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+
+.tematy li:nth-child(1) div {
+  background: #cffdd5;
+  transform: rotate(-10deg);
+}
+
+.tematy li:nth-child(2) div {
+  background: #fdf5cf;
+  transform: rotate(5deg);
+}
+
+.tematy li:nth-child(3) div {
+  background-color: #D9CDFF;
+  transform: rotate(-4deg);
+}
+
+.tematy li:nth-child(4) div {
+  background-color: #cfeafd;
+  transform: rotate(10deg);
+}
+.tematy li:nth-child(5) div {
+  background-color: #DEB495;
+  transform: rotate(-20deg);
+}
+.tematy li:nth-child(6) div {
+  background-color: #E0D7DA;
+  transform: rotate(25deg);
+}
