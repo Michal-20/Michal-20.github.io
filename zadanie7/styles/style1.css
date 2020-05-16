@@ -106,6 +106,7 @@ textarea{
 	background-color:#bedfff;
 	width:20vw;
 	height:6vh;
+	resize:none;
 }
 textarea:focus{
 	background-color:#93cbff;
