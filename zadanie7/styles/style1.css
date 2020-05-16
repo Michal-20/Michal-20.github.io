@@ -184,13 +184,19 @@ a:hover{
   left: 0;
   height: 1.5vw;
   width: 1.5vw;
-  background-color: #103c66;
+  background-color: #bedfff;
   border-radius: 50%;
   margin-right:10vw;
 }
 
-.container input:checked ~ .checkmark {
-  background-color: #bedfff;
+.container input:checked ~ #check1 {
+  background-color: #103c66;
+}
+.container input:checked ~ #check2 {
+  background-color: #FF96EC;
+}
+.container input:checked ~ #check3 {
+  background-color: #FFFF99;
 }
 
 .checkmark:after {
