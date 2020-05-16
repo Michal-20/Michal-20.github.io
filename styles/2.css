@@ -9,6 +9,7 @@ body{
 h1{
 	text-align:center;
 	color:#7FBFBF;
+	text-shadow: -1px, -1px;
 }	
 a{
 	text-decoration:none;
