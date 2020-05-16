@@ -52,11 +52,11 @@ a:hover{
 @media (orientation: portrait) and  (min-device-width: 300px)
 {
 	#information{
-		width:60vw;
+		width:30vh;
 		height:30vh;
 	}
 	p{
-		width:60vw;
+		width:30vh;
 		height:30vh;
 		font-size:4rem;
 	}
@@ -71,11 +71,11 @@ a:hover{
 @media (orientation: portrait) and  (min-device-width: 700px)
 {
 	#information{
-		width:55vw;
+		width:40vh;
 		height:40vh;
 	}
 	p{
-		width:55vw;
+		width:40vh;
 		height:40vh;
 		font-size:4rem;
 	}
@@ -90,11 +90,11 @@ a:hover{
 @media (orientation: portrait) and  (min-device-width: 1000px)
 {
 	#information{
-		width:50vw;
+		width:40vh;
 		height:40vh;
 	}
 	p{
-		width:50vw;
+		width:40vh;
 		height:40vh;
 		font-size:3.6rem;
 	}
@@ -108,7 +108,7 @@ a:hover{
 {
 	
 #information{
-	width:21vw;
+	width:40vh;
 	height:40vh;
 	border:15px solid #533400;
 	background-color:#A17835;
@@ -126,7 +126,7 @@ a:hover{
 }
 
 p{
-    width:21vw;
+    width:40vh;
     height:40vh;
     display:table-cell;
     vertical-align:middle;
@@ -161,11 +161,11 @@ a:hover{
 {
 	#information{
 		width:30vw;
-		height:40vh;
+		height:30vwh;
 	}
 	p{
 		width:30vw;
-		height:40vh;
+		height:30vw;
 		font-size:2.5rem;
 	}
 	#back{
@@ -180,11 +180,11 @@ a:hover{
 {
 	#information{
 		width:30vw;
-		height:45vh;
+		height:30vw;
 	}
 	p{
 		width:30vw;
-		height:45vh;
+		height:30vw;
 		font-size:2rem;
 	}
 	#back{
@@ -199,11 +199,11 @@ a:hover{
 {
 	#information{
 		width:30vw;
-		height:55vh;
+		height:30vw;
 	}
 	p{
 		width:30vw;
-		height:55vh;
+		height:30vw;
 		font-size:2.5rem;
 	}
 	#back{
@@ -218,11 +218,11 @@ a:hover{
 {
 	#information{
 		width:30vw;
-		height:40vh;
+		height:30vw;
 	}
 	p{
 		width:30vw;
-		height:40vh;
+		height:30vw;
 		font-size:2.2rem;
 	}
 	#back{
@@ -239,7 +239,7 @@ a:hover{
 	
 #information{
 	width:21vw;
-	height:40vh;
+	height:21vw;
 	border:15px solid #533400;
 	background-color:#A17835;
 	position: absolute;
@@ -257,7 +257,7 @@ a:hover{
 
 p{
     width:21vw;
-    height:40vh;
+    height:21vw;
     display:table-cell;
     vertical-align:middle;
 	text-align:center;
