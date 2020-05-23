@@ -58,7 +58,7 @@ a{
 }
 .tematy li:nth-child(5) div {
   background-color: #DEB495;
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
 }
 .tematy li:nth-child(6) div {
   background-color: #E0D7DA;
