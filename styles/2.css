@@ -22,11 +22,11 @@ a{
 }
 .tematy li {
   float: left;
-  margin: 3%;
+  margin: 3.5%;
 }
 .tematy li div {
-  width: 200px;
-  height: 200px;
+  width: 195px;
+  height: 195px;
   background: #ccc;
   padding: 10px;
   transition-duration: 0.5s;
@@ -43,7 +43,7 @@ a{
 }
 
 .tematy li:nth-child(2) div {
-  background: #fdf5cf;
+  background: 	#7fd8e5;
   transform: rotate(5deg);
 }
 
@@ -58,9 +58,59 @@ a{
 }
 .tematy li:nth-child(5) div {
   background-color: #DEB495;
-  transform: rotate(-10deg);
+  transform: rotate(-20deg);
 }
 .tematy li:nth-child(6) div {
   background-color: #E0D7DA;
-  transform: rotate(17deg);
+  transform: rotate(10deg);
+}
+
+.tematy li:nth-child(7) div {
+  background-color: #9DFFE5;
+  transform: rotate(-14deg);
+}
+.tematy li:nth-child(8) div {
+  background-color: #fdf5cf;
+  transform: rotate(7deg);
+}
+
+.tematy li:nth-child(1) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(2) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(3) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(4) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(5) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(6) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(7) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+.tematy li:nth-child(8) div:hover {
+ -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
 }
