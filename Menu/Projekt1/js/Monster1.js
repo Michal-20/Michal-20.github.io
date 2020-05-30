@@ -16,12 +16,12 @@ function Monster1 (x){
 		
 		Monster1.all[this.id] = this;
 		//
-		this.fW = this.kind ? 16: 12;
-		this.fH = this.kind ? 10: 10;
-		this.scale = this.kind ? 4: 5;
+		this.fW = 16;
+		this.fH = 10;
+		this.scale = 4;
 		//
-		this.start_x = this.kind ? 1: 51;
-		this.start_y = this.kind ? 3: 2;
+		this.start_x =  1;
+		this.start_y =  3;
 		//
 		this.x = x;
 		this.y = -20;
@@ -49,28 +49,28 @@ Monster1.prototype.draw = function(){
 	
 		if(this.kind == 1){
 			this.fW = 16;
-			this.fH = 10;
+			this.fH = 9;
 			this.scale = 4;
 			//
 			this.start_x = 1;
 			this.start_y = 3;
 		}else if(this.kind == 2){
 			this.fW = 14;
-			this.fH = 10;
+			this.fH = 9;
 			this.scale = 5;
 			//
 			this.start_x = 51;
 			this.start_y = 2;
 		}else if(this.kind == 3){
 			this.fW = 15;
-			this.fH = 10;
+			this.fH = 9;
 			this.scale = 6;
 			//
 			this.start_x = 106;
 			this.start_y = 2;
 		}else if(this.kind == 4){
 			this.fW = 16;
-			this.fH = 10;
+			this.fH = 9;
 			this.scale = 5;
 			//
 			this.start_x = 81;
