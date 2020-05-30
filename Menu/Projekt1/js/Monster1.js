@@ -17,7 +17,7 @@ function Monster1 (x){
 		Monster1.all[this.id] = this;
 		//
 		this.fW = 16;
-		this.fH = 10;
+		this.fH = 9;
 		this.scale = 4;
 		//
 		this.start_x =  1;
