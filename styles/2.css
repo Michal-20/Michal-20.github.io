@@ -53,7 +53,7 @@ a{
 }
 
 .tematy li:nth-child(4) div {
-  background-color: #cfeafd;
+  background-color: #fdf5cf;
   transform: rotate(10deg);
 }
 .tematy li:nth-child(5) div {
@@ -70,7 +70,7 @@ a{
   transform: rotate(-14deg);
 }
 .tematy li:nth-child(8) div {
-  background-color: #fdf5cf;
+  background-color: #cfeafd;
   transform: rotate(7deg);
 }
 
