@@ -33,7 +33,7 @@ Fire.prototype.draw = function(){
 		
 		if((Game.key_37 || Game.key_39) && (!Game.thrust_sound || Game.thrust_sound <=0)){
 				Game.thrust_sound = 60;
-				Sounds.volume(0.7);
+				Sounds.volume(1);
 				Sounds.play('thrust');
 			}else if(Game.key_38 && Game.thrust_sound){
 				Game.thrust_sound -= 1000/VAR.fps;
