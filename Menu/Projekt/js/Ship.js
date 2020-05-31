@@ -42,7 +42,7 @@ Ship.prototype.draw = function(){
 		this.x = VAR.W*0.92;
 	}
 	
-	if(!this.ko){
+	if(!this.ko && !Game.success){
 			Game.ctx.drawImage(
 			Game.spr,
 			this.start_x,
