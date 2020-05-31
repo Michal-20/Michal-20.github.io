@@ -12,7 +12,7 @@ function Fire (){
 	this.draw_thrust = true;
 }
 Fire.prototype.draw = function(){
-	if(!Game.Ship.ko){
+	if(!Game.Ship.ko && !Game.success){
 		if((Game.key_37 || Game.key_39) && this.draw_thrust){
 		this.draw_thrust = false;
 		Game.ctx.drawImage(
