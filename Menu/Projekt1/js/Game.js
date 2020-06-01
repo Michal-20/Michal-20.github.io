@@ -78,7 +78,8 @@ Game = {
 	onKey:function(event){
 		console.log(event.keyCode);
 		if(event.keyCode == 32 || event.keyCode == 37 || event.keyCode == 38 ||
-		event.keyCode == 39 || event.keyCode == 13 || event.keyCode == 49 || event.keyCode == 50 || event.keyCode == 51)
+		event.keyCode == 39 || event.keyCode == 13 || event.keyCode == 49 || event.keyCode == 50 || event.keyCode == 51
+		  || event.keyCode == 97 || event.keyCode == 98 || event.keyCode == 99)
 		{
 			event.preventDefault();
 			//
@@ -166,17 +167,17 @@ Game = {
 				Game.ctx.fillText("Right arrow - move right",VAR.W*0.42,VAR.H*0.55);
 				Game.ctx.fillText("Spacebar - shot",VAR.W*0.42,VAR.H*0.62);
 				
-				if(Game.key_49 && Game.b){
+				if(Game.key_49 && Game.b && Game.key_97){
 					Game.b = false;
 					Game.level = 2;
 					Game.level_max = 14;
 				}
-				if(Game.key_50 && Game.b){
+				if(Game.key_50 && Game.b && Game.key_98){
 					Game.b = false;
 					Game.level = 3;
 					Game.level_max = 19;
 				}	
-				if(Game.key_51 && Game.b){
+				if(Game.key_51 && Game.b && Game.key_99){
 					Game.b = false;
 					Game.level = 4;
 					Game.level_max = 24;
