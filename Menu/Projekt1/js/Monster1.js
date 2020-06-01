@@ -50,7 +50,7 @@ Monster1.prototype.draw = function(){
 		if(this.kind == 1){
 			this.fW = 16;
 			this.fH = 9;
-			this.scale = 4;
+			this.scale = 5;
 			//
 			this.start_x = 1;
 			this.start_y = 3;
@@ -64,7 +64,7 @@ Monster1.prototype.draw = function(){
 		}else if(this.kind == 3){
 			this.fW = 15;
 			this.fH = 9;
-			this.scale = 6;
+			this.scale = 5;
 			//
 			this.start_x = 106;
 			this.start_y = 2;
@@ -176,7 +176,31 @@ Monster1.prototype.remove = function(){
 	
 Monster1.draw = function(){
 	for(var m in Monster1.all){
-		if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW*2, Monster1.all[m].y + Monster1.all[m].fH*2)){
+		if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW*2.5, Monster1.all[m].y + Monster1.all[m].fH*2.5)){
+			delete Monster1.all[m];	
+			Game.Ship.remove();
+			Monster1.killed ++;
+			Monster1.amount --;
+			break;
+		}else if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW, Monster1.all[m].y + Monster1.all[m].fH)){
+			delete Monster1.all[m];	
+			Game.Ship.remove();
+			Monster1.killed ++;
+			Monster1.amount --;
+			break;
+		}else if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW, Monster1.all[m].y + Monster1.all[m].fH*5)){
+			delete Monster1.all[m];	
+			Game.Ship.remove();
+			Monster1.killed ++;
+			Monster1.amount --;
+			break;
+		}else if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW*5, Monster1.all[m].y + Monster1.all[m].fH*5)){
+			delete Monster1.all[m];	
+			Game.Ship.remove();
+			Monster1.killed ++;
+			Monster1.amount --;
+			break;
+		}else if(Game.Ship.hitTest(Monster1.all[m].x + Monster1.all[m].fW*5, Monster1.all[m].y + Monster1.all[m].fH)){
 			delete Monster1.all[m];	
 			Game.Ship.remove();
 			Monster1.killed ++;
