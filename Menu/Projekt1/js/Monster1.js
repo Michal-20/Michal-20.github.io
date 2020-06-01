@@ -18,7 +18,7 @@ function Monster1 (x){
 		//
 		this.fW = 16;
 		this.fH = 9;
-		this.scale = 4;
+		this.scale = 5;
 		//
 		this.start_x =  1;
 		this.start_y =  3;
