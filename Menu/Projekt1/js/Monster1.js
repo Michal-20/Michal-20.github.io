@@ -92,7 +92,7 @@ Monster1.prototype.draw = function(){
 			Game.ctx.drawImage(
 			Game.spr,
 			this.x_ko,
-			this.y_ko + this.frames_ko[this.current_f]*8,
+			this.y_ko + this.frames_ko[this.current_f]*9,
 			this.fW,
 			this.fH,
 			this.x,
