@@ -154,12 +154,12 @@ Monster1.prototype.draw = function(){
 
 Monster1.prototype.hitTest = function(x,y){
 
-	if(this.x<x && this.x+this.fW*4>x && this.y<y && this.y+this.fH*4>y){
+	if(this.x<x && this.x+this.fW*this.scale>x && this.y<y && this.y+this.fH*this.scale>y){
 		
 		Game.hit_ctx.clearRect(0, 0, VAR.W, VAR.H);
 
 		Game.hit_ctx.beginPath();
-		Game.hit_ctx.fillRect(this.x,this.y, this.fW*4,this.fH*4);	
+		Game.hit_ctx.fillRect(this.x,this.y, this.fW*this.scale,this.fH*this.scale);	
 		Game.hit_ctx.closePath();		
 		Game.hit_ctx.fill();
 	
