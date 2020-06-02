@@ -67,7 +67,7 @@ a{
   transform: rotate(10deg);
 }
 .tematy li:nth-child(5) div {
-  background: linear-gradient(90deg, rgba(15,14,78,1) 0%, rgba(0,90,101,1) 53%, rgba(255,184,0,1) 100%);
+  background-color:#4C8B93;
   transform: rotate(-20deg);
 }
 .tematy li:nth-child(6) div {
