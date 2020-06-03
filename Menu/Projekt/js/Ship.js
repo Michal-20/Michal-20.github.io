@@ -11,8 +11,8 @@ function Ship (){
 	this.start_x = 24;
 	this.start_y = 11;
 	//
-	this.x = 900;
-	this.y = 750;
+	this.x = VAR.W*0.5;
+	this.y = VAR.H*0.85;
 	this.ko = false;
 
 	this.frames_ko = [0,1,2];
@@ -116,8 +116,8 @@ Ship.prototype.remove = function(){
 }
 
 Ship.prototype.respawn = function(){
-	this.x = 900;
-	this.y = 750;
+	this.x = VAR.W*0.5;
+	this.y = VAR.H*0.85;
 	this.ko = false;
 	Game.start();
 }	
