@@ -160,9 +160,9 @@ Game = {
 				Game.ctx.fillStyle = '#33ff00';
 				Game.ctx.fillText("Select the game difficulty:",VAR.W*0.4,VAR.H*0.3);
 				Game.ctx.font = '30px Bebas Neue';
-				Game.ctx.fillText("Press '1' to choose  - easy",VAR.W*0.23,VAR.H*0.37);
-				Game.ctx.fillText("Press '2' to choose - normal",VAR.W*0.4,VAR.H*0.37);
-				Game.ctx.fillText("Press '3' to choose - hard",VAR.W*0.57,VAR.H*0.37);
+				Game.ctx.fillText("Press '1' to choose  - easy",VAR.W*0.15,VAR.H*0.37);
+				Game.ctx.fillText("Press '2' to choose - normal",VAR.W*0.40,VAR.H*0.37);
+				Game.ctx.fillText("Press '3' to choose - hard",VAR.W*0.65,VAR.H*0.37);
 				Game.ctx.fillText("Left arrow - move left",VAR.W*0.42,VAR.H*0.48);
 				Game.ctx.fillText("Right arrow - move right",VAR.W*0.42,VAR.H*0.55);
 				Game.ctx.fillText("Spacebar - shot",VAR.W*0.42,VAR.H*0.62);
