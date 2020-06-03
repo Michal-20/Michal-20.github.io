@@ -120,7 +120,7 @@ Ship.prototype.remove = function(){
 
 Ship.prototype.respawn = function(){
 	this.x = VAR.W*0.5;
-	this.y = VAR.H*0.9;
+	this.y = VAR.H*0.85;
 	this.ko = false;
 	Game.start();
 }	
